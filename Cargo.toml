@@ -5,7 +5,9 @@ edition = "2021"
 license = "ISC"
 description = "Ported from https://github.com/cyclic-software/monkey-typewriter"
 authors = ["Sahit"]
-
+repository = "https://github.com/sahitono/monkey-typewriter"
+homepage = "https://github.com/sahitono/monkey-typewriter"
+documentation = "https://github.com/sahitono/monkey-typewriter"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
