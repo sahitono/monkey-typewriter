@@ -1,0 +1,22 @@
+[package]
+name = "monkey_typewriter"
+version = "0.1.0"
+edition = "2021"
+license = "ISC"
+description = "Ported from https://github.com/cyclic-software/monkey-typewriter"
+authors = ["Sahit"]
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "monkey_typewriter"
+path = "src/lib.rs"
+
+[[bin]]
+name = "monkey_typewriter"
+path = "src/bin/main.rs"
+
+
+[dependencies]
+rand = "0.8.5"
